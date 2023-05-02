@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    background-color: #0b0819;
+    @media screen and (max-width: 800px) {
+        display: none;
+    }
+}
+.company-info {
+    display: flex;
+    align-items: center;
+    margin-left: 44px;
+}
+.menu-div {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 100%;
+}
+.menu-item-selected {
+    margin: 0;
+    color: #627eea;
+    border-bottom: 2px solid #627eea;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.menu-item-default {
+    margin: 0;
+    color: #5a5a5a;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.wallet-button {
+    margin-right: 120px;
+    background: linear-gradient(94.37deg, #3387d5 -5.94%, #7a06c9 115.34%);
+    border-radius: 30px;
+    color: #ffff;
+    height: 40px;
+    width: 140px;
+    border: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-shadow: 0.364154px 0.364154px 0.364154px rgba(0, 0, 0, 0.25);
+}

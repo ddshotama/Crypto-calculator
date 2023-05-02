@@ -1,0 +1,131 @@
+.buy-card {
+    height: calc(100vh - 69px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-notch {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1c1731;
+    position: absolute;
+    left: 42.5%;
+    top: -4.5%;
+}
+.card {
+    height: 519px;
+    width: 100%;
+    max-width: 470px;
+    /* background-color: #0b0819; */
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #46425e;
+    border-left: 1px solid #46425e;
+    border-right: 1px solid #46425e;
+    position: relative;
+}
+.coin-value {
+    margin-top: 80px;
+    margin-left: 44px;
+    margin-right: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.coin-value p {
+    margin: 0;
+}
+.dropdown {
+    height: 60px;
+    background: #1c1731;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 24px;
+    color: #fff;
+}
+.dropdown div {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    gap: 8px;
+}
+.invest-value {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 44px;
+    margin-right: 40px;
+    align-items: flex-start;
+    color: #fff;
+}
+.invest-input {
+    border: 1px solid rgba(110, 86, 248, 0.25);
+    border-radius: 10px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgba(110, 86, 248, 0.25); */
+}
+.invest-input input {
+    height: 93%;
+    width: 80%;
+    background-color: #0b0819;
+    border: 0;
+    color: #6f6f7e;
+    outline: none;
+    font-size: 22px;
+    margin-left: 24px;
+}
+.return-value {
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #fff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 12px;
+}
+.return-value input {
+    height: 60px;
+    width: 100%;
+    background-color: #1c1731;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    color: #6f6f7e;
+    font-size: 22px;
+    margin-left: 24px;
+}
+.return-input {
+    background: #1c1731;
+    border-radius: 10px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buy-button {
+    height: 50px;
+    background: linear-gradient(94.37deg, #3387d5 -5.94%, #7a06c9 115.34%);
+    border-radius: 30px;
+    border: 0;
+    margin: 0 40px;
+    margin-top: 50px;
+}
